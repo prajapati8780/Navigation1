@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;  
+    background-color: red; 
+    width: auto;
+    height: 43px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+li{
+    float: left;  /* By using float, the word of login form will be printed in horizontal line */
+}
+li a{
+    text-decoration:none ;      /*  The line will go from below in the text decoration */
+    display: block;
+    color: white;
+    padding: 12px;               /*  The login form text will be spaced */
+    padding-left: 40px;
+} 
+.nav1 li a:hover{
+    background-color:rgb(19, 139, 137);
+}
+.nav2 li a:hover{
+    background-color: darkblue;
+}
+.nav3 li a:hover{
+    background-color: green;
+}
